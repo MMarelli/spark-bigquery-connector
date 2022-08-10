@@ -17,6 +17,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -P dsv1 clean install
+      run: echo "testing updating CI $GOOGLE_CLOUD_PROJECT"
       env:
         GOOGLE_CLOUD_PROJECT: test-project
+
