@@ -20,4 +20,3 @@ jobs:
       run: echo "testing updating CI $GOOGLE_CLOUD_PROJECT"
       env:
         GOOGLE_CLOUD_PROJECT: test-project
-
